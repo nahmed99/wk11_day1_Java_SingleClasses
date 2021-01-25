@@ -1,7 +1,7 @@
 public class Runner {
 
     public static void main(String[] args) {
-        Bear bear = new Bear("Balu", 25);
+        Bear bear = new Bear("Balu", 25, 99.1);
         String name = bear.getName();
         System.out.println(name);
 
